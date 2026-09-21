@@ -1,0 +1,70 @@
+{
+  "measurement_kind": "actual local stdio MCP subprocess responses, not Codex-native",
+  "small": {
+    "path": "/Users/takamasa/Documents/Codex/2026-09-20/ctxfilter-jev-integration/work/fixtures/synthetic-issues.jsonl",
+    "file_bytes": 825,
+    "route": "full",
+    "reason": "small_and_fits",
+    "calls": 1,
+    "additional_calls": 0,
+    "content_json_bytes": 996,
+    "envelope_body_bytes": 1255,
+    "framing_bytes": 1
+  },
+  "large_prefix": {
+    "path": "/Users/takamasa/Documents/Codex/2026-09-20/codex-context-filter-grok46/work/fixtures/long-log.txt",
+    "file_bytes": 655836,
+    "route": "preview",
+    "reason": "size_threshold",
+    "calls": 1,
+    "additional_calls": 0,
+    "returned_excerpt_bytes": 2000,
+    "complete": false,
+    "content_json_bytes": 3049,
+    "envelope_body_bytes": 3275,
+    "framing_bytes": 1
+  },
+  "large_marker_search": {
+    "calls": 1,
+    "additional_fetch_calls": 1,
+    "search": {
+      "content_json_bytes": 1244,
+      "envelope_body_bytes": 1445,
+      "framing_bytes": 1
+    },
+    "fetch": {
+      "content_json_bytes": 1108,
+      "envelope_body_bytes": 1302,
+      "framing_bytes": 1
+    },
+    "total_envelope_bytes": 2747,
+    "scope": "Find MARKER-MID and return 100 characters from it; not entire log"
+  },
+  "small_old_preview_fetch": {
+    "calls": 2,
+    "envelope_body_bytes": 3417
+  },
+  "previous_comparison_reference": {
+    "source": "results-live.json",
+    "full_direct": {
+      "content_bytes": 1061,
+      "envelope_body_bytes": 1315,
+      "codex_facing_calls": 1
+    },
+    "ctxfilter": {
+      "envelope_body_bytes": 3419,
+      "codex_facing_calls": 2,
+      "preview_calls": 1,
+      "fetch_calls": 1
+    }
+  },
+  "tools_list": {
+    "envelope_bytes": 2937,
+    "added_bytes": 1143,
+    "counted_separately": true
+  },
+  "jev_calls": 0,
+  "tokens_measured": false,
+  "quota_measured": false,
+  "native_read_file_verified": false
+}

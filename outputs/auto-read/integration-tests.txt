@@ -1,0 +1,13 @@
+/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/case.py:615: ResourceWarning: unclosed file <_io.BufferedReader name=7>
+  result = method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/case.py:615: ResourceWarning: unclosed file <_io.BufferedWriter name=4>
+  result = method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/case.py:615: ResourceWarning: unclosed file <_io.BufferedReader name=5>
+  result = method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+----------------------------------------------------------------------
+Ran 41 tests in 3.537s
+
+OK

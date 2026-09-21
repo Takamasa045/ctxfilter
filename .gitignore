@@ -1,0 +1,18 @@
+# Track reviewed implementation and documentation only.
+*
+!*/
+!.gitignore
+!README.md
+!outputs/README.md
+!outputs/bin/ctxfilter
+!outputs/src/**/*.py
+!outputs/tests/**/*.py
+!outputs/auto-read/*.md
+!outputs/auto-read/measurement.json
+!outputs/auto-read/tests.txt
+!outputs/auto-read/integration-tests.txt
+!work/fixtures/build_fixtures.py
+**/__pycache__/
+**/*.pyc
+**/.env*
+work/backup/

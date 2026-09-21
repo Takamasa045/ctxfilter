@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+"""Launcher. Arguments are parsed in-process; nothing is sent to a shell."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+
+from ctxfilter.cli import main
+
+if __name__ == "__main__":
+    raise SystemExit(main())

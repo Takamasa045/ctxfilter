@@ -1,0 +1,57 @@
+test_binary_invalid_utf8_permissions_and_directory (test_auto_read.AutoReadTests.test_binary_invalid_utf8_permissions_and_directory) ... ok
+test_large_route_no_body_read_for_size (test_auto_read.AutoReadTests.test_large_route_no_body_read_for_size) ... ok
+test_mcp_cli_real_process_and_no_network (test_auto_read.AutoReadTests.test_mcp_cli_real_process_and_no_network) ... ok
+test_mcp_output_budget_and_bad_arguments (test_auto_read.AutoReadTests.test_mcp_output_budget_and_bad_arguments) ... ok
+test_read_mutation_and_replacement (test_auto_read.AutoReadTests.test_read_mutation_and_replacement) ... ok
+test_search_continuation_not_false_negative (test_auto_read.AutoReadTests.test_search_continuation_not_false_negative) ... ok
+test_serialized_budget_boundary_and_escaping (test_auto_read.AutoReadTests.test_serialized_budget_boundary_and_escaping) ... ok
+test_small_empty_multibyte_and_many_lines (test_auto_read.AutoReadTests.test_small_empty_multibyte_and_many_lines) ... ok
+test_threshold_boundary (test_auto_read.AutoReadTests.test_threshold_boundary) ... ok
+test_error_exit_code (test_cli_process.CliProcessTests.test_error_exit_code) ... ok
+test_japanese_cli (test_cli_process.CliProcessTests.test_japanese_cli) ... ok
+test_preview_search_fetch_pipeline (test_cli_process.CliProcessTests.test_preview_search_fetch_pipeline) ... ok
+test_search_continue_from_byte (test_cli_process.CliProcessTests.test_search_continue_from_byte) ... ok
+test_tiny_output_budget_exits_nonzero (test_cli_process.CliProcessTests.test_tiny_output_budget_exits_nonzero) ... ok
+test_binary_preview (test_core.CoreTests.test_binary_preview) ... ok
+test_directory_and_device_and_missing (test_core.CoreTests.test_directory_and_device_and_missing) ... ok
+test_empty_file (test_core.CoreTests.test_empty_file) ... ok
+test_fetch_by_line (test_core.CoreTests.test_fetch_by_line) ... ok
+test_huge_line_middle_without_loading_prefix (test_core.CoreTests.test_huge_line_middle_without_loading_prefix) ... ok
+test_invalid_path_is_not_echoed_at_length (test_core.CoreTests.test_invalid_path_is_not_echoed_at_length) ... ok
+test_japanese_roundtrip (test_core.CoreTests.test_japanese_roundtrip) ... ok
+test_nul_path_rejected (test_core.CoreTests.test_nul_path_rejected) ... ok
+test_output_budget (test_core.CoreTests.test_output_budget) ... ok
+test_preview_is_bounded_and_keeps_start_marker (test_core.CoreTests.test_preview_is_bounded_and_keeps_start_marker) ... ok
+test_search_does_not_claim_total_when_capped (test_core.CoreTests.test_search_does_not_claim_total_when_capped) ... ok
+test_search_no_match_and_complete_scan (test_core.CoreTests.test_search_no_match_and_complete_scan) ... ok
+test_search_then_fetch_middle_marker (test_core.CoreTests.test_search_then_fetch_middle_marker) ... ok
+test_stale_identity_after_rewrite (test_core.CoreTests.test_stale_identity_after_rewrite) ... ok
+test_identity_fields_are_decimal_strings (test_js_identity_roundtrip.JsIdentityRoundtripTests.test_identity_fields_are_decimal_strings) ... ok
+test_node_parse_stringify_then_cli_fetch (test_js_identity_roundtrip.JsIdentityRoundtripTests.test_node_parse_stringify_then_cli_fetch) ... ok
+test_node_parse_stringify_then_mcp_fetch (test_js_identity_roundtrip.JsIdentityRoundtripTests.test_node_parse_stringify_then_mcp_fetch) ... /opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/case.py:615: ResourceWarning: unclosed file <_io.BufferedReader name=7>
+  result = method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/case.py:615: ResourceWarning: unclosed file <_io.BufferedReader name=5>
+  result = method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_bad_argument_types_then_ping_and_preview (test_mcp_process.McpProcessTests.test_bad_argument_types_then_ping_and_preview) ... ok
+test_initialize_list_call_and_ping_after_parse_error (test_mcp_process.McpProcessTests.test_initialize_list_call_and_ping_after_parse_error) ... ok
+test_mcp_stdin_eof_exits_zero (test_mcp_process.McpProcessTests.test_mcp_stdin_eof_exits_zero) ... ok
+test_fetch_to_eof_and_empty_eof_stop (test_review_fixes.ReviewFixTests.test_fetch_to_eof_and_empty_eof_stop) ... ok
+test_fifo_open_does_not_block (test_review_fixes.ReviewFixTests.test_fifo_open_does_not_block) ... ok
+test_invalid_utf8_is_rejected (test_review_fixes.ReviewFixTests.test_invalid_utf8_is_rejected) ... ok
+test_match_excerpt_contains_query_at_edges (test_review_fixes.ReviewFixTests.test_match_excerpt_contains_query_at_edges) ... ok
+test_missing_after_path_does_not_crash (test_review_fixes.ReviewFixTests.test_missing_after_path_does_not_crash) ... ok
+test_output_shrink_cursors_allow_full_reconstruct (test_review_fixes.ReviewFixTests.test_output_shrink_cursors_allow_full_reconstruct) ... ok
+test_search_boundaries_1024_and_eof (test_review_fixes.ReviewFixTests.test_search_boundaries_1024_and_eof) ... ok
+test_search_boundaries_65536 (test_review_fixes.ReviewFixTests.test_search_boundaries_65536) ... ok
+test_search_continuation_past_default_8mib (test_review_fixes.ReviewFixTests.test_search_continuation_past_default_8mib) ... ok
+test_search_continuation_past_scan_and_match_caps (test_review_fixes.ReviewFixTests.test_search_continuation_past_scan_and_match_caps) ... ok
+test_second_chunk_line_and_char_match_byte_fetch (test_review_fixes.ReviewFixTests.test_second_chunk_line_and_char_match_byte_fetch) ... ok
+test_too_small_output_budget_is_error (test_review_fixes.ReviewFixTests.test_too_small_output_budget_is_error) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 1.243s
+
+OK
